@@ -54,11 +54,22 @@ export default function Contact() {
 
         <button type="submit">Send Message</button>
       </form>
-
       <div className="contact-info">
-        <p>Email: abdulrahman5815786@gmail.com</p>
-        <p>LinkedIn: https://www.linkedin.com/in/abdul-rahman-1850b2344?utm_source=portfolio</p>
-      </div>
+        <p>Email: 
+          <a href="mailto:abdulrahman5815786@gmail.com">
+            abdulrahman5815786@gmail.com
+          </a>
+        </p>
+        <p> 
+          LinkedIn: 
+          <a 
+          href= "https://www.linkedin.com/in/abdul-rahman-1850b2344"
+          target="_blank"
+          rel="noopener noreferrer">
+             linkedin.com/in/abdul-rahman-1850b2344
+            </a>
+        </p>
+        </div>
     </section>
   );
 }

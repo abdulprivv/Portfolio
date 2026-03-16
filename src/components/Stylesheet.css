@@ -970,3 +970,42 @@ h2::after {
   }
 
 }
+.contact-info a{
+  color:#38bdf8;
+  text-decoration:none;
+  transition:0.3s;
+}
+
+.contact-info a:hover{
+  color:#0ea5e9;
+}
+@media (max-width:768px){
+
+.contact-info p{
+font-size:14px;
+}
+
+}
+@media (max-width:425px){
+
+.contact-info{
+gap:8px;
+}
+
+.contact-info p{
+font-size:13px;
+}
+
+}
+@media (max-width:320px){
+
+.contact-info p{
+font-size:12px;
+}
+
+.contact-info a{
+display:block;
+margin-top:3px;
+}
+
+}
