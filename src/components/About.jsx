@@ -58,6 +58,8 @@ export default function About() {
         <span className="skill">Node.js</span>
         <span className="skill">MongoDB</span>
         <span className="skill">Express.js</span>
+        <span className="skill">Java</span>
+        <span className="skill">Bootstrap</span>
         <span className="skill">JavaScript (ES6+)</span>
         <span className="skill">HTML/CSS</span>
         <span className="skill">Python</span>
