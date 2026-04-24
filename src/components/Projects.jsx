@@ -1,6 +1,8 @@
 import attendanceImg from "../assets/images/a.png";
 import spamImg from "../assets/images/b.png";
 import taskImg from "../assets/images/c.png";
+import ResumeImg from "../assets/images/d.png";
+import skyImg from "../assets/images/e.png";
 
 export default function Projects() {
 
@@ -18,10 +20,22 @@ export default function Projects() {
       github: "https://github.com/abdulprivv/Inventory-Management-App.git"
     },
     {
-      title: "React/Next.js Frontend",
+      title: "Event Tommorow Frontend",
       desc: "React/Next.js project implementing responsive design with fluid typography and breakpoints",
       image: taskImg,
       github: "https://github.com/abdulprivv/React-Next-js-Project.git"
+    },
+    {
+      title: "Resume Analyzer",
+      desc: "Next.js project implementing responsive design with fluid javascript and breakpoints",
+      image: ResumeImg,
+      github: "https://github.com/abdulprivv/Resume-Analyzer.git"
+    },
+    {
+      title: "Skycast Weather App",
+      desc: "Next.js project implementing responsive design with fluid javascript and breakpoints",
+      image: skyImg,
+      github: "https://github.com/abdulprivv/weather-dashboard.git"
     }
   ];
 
